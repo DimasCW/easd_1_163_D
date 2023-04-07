@@ -42,5 +42,9 @@ void display() {
 	for (int i = 0;i < n;i++) {
 		cout << dimas[i] << " ";
 	}
+	cout << endl;
+}
+
+int main() {
 
 }
