@@ -46,5 +46,6 @@ void display() {
 }
 
 int main() {
-
+	cout << "Masukkan Jumlah data (Maksimum " << i << "): ";
+	cin >> n;
 }
