@@ -50,4 +50,5 @@ int main() {
 	cin >> n;
 
 	input();
+	selectionsort();
 }
