@@ -37,5 +37,10 @@ void selectionsort() {
 }
 
 void display() {
+	
+	cout << "Data urut : ";
+	for (int i = 0;i < n;i++) {
+		cout << dimas[i] << " ";
+	}
 
 }
