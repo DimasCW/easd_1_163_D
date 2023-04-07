@@ -44,11 +44,10 @@ void display() {
 		cout << dimas[i] << " ";
 	}
 	cout << endl;
+
 }
 
 int main() {
-	cout << "Masukkan Jumlah data (Maksimum " << i << "): ";
-	cin >> n;
 
 	input();
 	selectionsort();
