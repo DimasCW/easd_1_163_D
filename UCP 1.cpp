@@ -30,8 +30,9 @@ void selectionsort() {
 				min_index = i;
 			}
 		}
-		if (min_index != DW) {
-			swap(dimas[DW], dimas[min_index]);
+		int temp = dimas[DW];
+		dimas[DW] = dimas[min_index];
+		dimas[min_index] = temp;
 		}
 	}
 }
