@@ -23,15 +23,15 @@ void input() {
 }
 
 void selectionsort() {
-	for (int DA = 0; DA < n; DA++) {
-		int min_index = DA;
-		for (int i = DA + 1;i < n;i++) {
+	for (int DW = 0; DW < n; DW++) {
+		int min_index = DW;
+		for (int i = DW + 1;i < n;i++) {
 			if (dimas[i] < dimas[min_index]) {
 				min_index = i;
 			}
 		}
-		if (min_index != DA) {
-			swap(dimas[DA], dimas[min_index]);
+		if (min_index != DW) {
+			swap(dimas[DW], dimas[min_index]);
 		}
 	}
 }
