@@ -30,6 +30,8 @@ void selectionsort() {
 				min_index = i;
 			}
 		}
-		if
+		if (min_index != DA) {
+			swap(dimas[DA], dimas[min_index]);
+		}
 	}
 }
