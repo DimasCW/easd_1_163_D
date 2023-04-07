@@ -16,7 +16,7 @@ int dimas[i];
 int n;
 
 void input() {
-	cout << "Masukkan " << n << " angka : ";
+	cout << "Masukkan " << n << " angka : \n";
 	for (int i = 0; i < n; i++) {
 		cin >> dimas[i];
 	}
@@ -33,9 +33,9 @@ void selectionsort() {
 		int temp = dimas[DW];
 		dimas[DW] = dimas[min_index];
 		dimas[min_index] = temp;
-		}
 	}
 }
+
 
 void display() {
 	
