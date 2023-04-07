@@ -35,3 +35,7 @@ void selectionsort() {
 		}
 	}
 }
+
+void display() {
+
+}
