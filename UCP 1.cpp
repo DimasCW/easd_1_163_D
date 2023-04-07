@@ -11,46 +11,25 @@
 using namespace std;
 
 
+const int i = 63 + 20 - 2 * 15 + 10 + 20;
+int dimas[i];
+int n;
 
-const int MAX_DATA = 2 * 15 + 10 + 20; // batas maksimum data
-
-void input(int arr[], int n) {
-    cout << "Masukkan " << n << " angka:\n";
-    for (int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
+void input() {
+	cout << "Masukkan " << n << "angka : ";
+	for (int i = 0; i < n; i++) {
+		cin >> dimas[i];
+	}
 }
 
-void selectionSort(int arr[], int n) {
-    for (int FA = 0; FA <= n - 2; FA++) { // ubah j menjadi FA sesuai persyaratan
-        int min_index = FA;
-        for (int i = FA + 1; i < n; i++) {
-            if (arr[i] < arr[min_index]) {
-                min_index = i;
-            }
-        }
-        swap(arr[FA], arr[min_index]);
-    }
-}
-
-void display(int arr[], int n) {
-    cout << "Data yang telah diurutkan: ";
-    for (int i = 0; i < n; i++) {
-        cout << arr[i] << " ";
-    }
-    cout << endl;
-}
-
-int main() {
-    int arr[MAX_DATA];
-    int n = 0;
-
-    cout << "Masukkan jumlah data (maksimum " << MAX_DATA << "): ";
-    cin >> n;
-
-    input(arr, n);
-    selectionSort(arr, n);
-    display(arr, n);
-
-    return 0;
+void selectionsort() {
+	for (int DA = 0; DA < n; DA++) {
+		int min_index = DA;
+		for (int i = DA + 1;i < n;i++) {
+			if (dimas[i] < dimas[min_index]) {
+				min_index = i;
+			}
+		}
+		if
+	}
 }
