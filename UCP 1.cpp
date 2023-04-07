@@ -16,7 +16,7 @@ int dimas[i];
 int n;
 
 void input() {
-	cout << "Masukkan " << n << "angka : ";
+	cout << "Masukkan " << n << " angka : ";
 	for (int i = 0; i < n; i++) {
 		cin >> dimas[i];
 	}
@@ -51,4 +51,5 @@ int main() {
 
 	input();
 	selectionsort();
+	display();
 }
